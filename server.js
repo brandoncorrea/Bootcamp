@@ -91,7 +91,7 @@ var requestHandler = function(request, response) {
   }
 };
 
-/* Initialize listingData and Start the server */
+/* Initialize listingData and Start server */
 fs.readFile('listings.json', 'utf8', function(err, data) {
   
   if (!err)
